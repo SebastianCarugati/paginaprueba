@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.portada{
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    background-image: url(http://www.deliciouslysortedibiza.com/blog/wp-content/uploads/2015/05/Space-Ibiza.jpg);
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(94,45,96,0.8267682072829132) 0%, rgba(2,0,36,1) 97%);
+}
+
+.Lista-de-navegacion {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.Lista-de-navegacion li {
+text-decoration: none;
+margin: 10px;
+color: white;
+font-family: 'Oxygen', sans-serif;
+text-shadow: 0px 0px 14px rgba(237,0,251,1);}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: inherit;
+    font-family: 'Oxygen', sans-serif;
+   
+}
+
+.titulo {
+    font-size: 4em;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    text-shadow: -1px 5px 7px rgba(255,255,255,0.6);
+    z-index: 2;
+}
+
+.Opacidad {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Lista-de-navegacion li :hover {
+    cursor: pointer;
+    color: gray;
+
+}
+
+
+
+.seccion-conocenos{ 
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.contenedor-conocenos{
+    width: 30%;
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+    align-items: center;
+    border-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    -webkit-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+-moz-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+}
+
+.titulo-conocenos{ 
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.parrafo-conocenos {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 17px;
+}
+
+.seccion-bandas {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card-tiesto {
+    width: 15%;
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+-moz-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+}
+
+.card-tiesto h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1rem;
+
+}
+
+.card-tiesto img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-tiesto p {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    padding: 30px;   
+}
+
+.seccion-contacto {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.card-contacto{ 
+    width: 40%;
+    margin-top: 100px;
+    height: 210px;
+    border-radius: 10%;
+    background-color: black;
+    align-items: flex-end;
+    -webkit-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+    -moz-box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+    box-shadow: 0px 0px 60px 0px rgba(219,15,219,1);
+    margin-bottom: 100px;
+}
+
+
+.card-contacto h2 {
+color: white;
+text-align: center;
+font-family: 'Oxygen', sans-serif;
+}
+
+.contenedor-input {
+ width: 100%;
+ margin: 10px;
+ display: flex;
+ justify-content: space-around;
+ color:white;
+ font-family: 'Oxygen', sans-serif;
+}
+
+.contenedor-btn {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center
+}
+
+.contenedor-input input {
+    width: 80%;
+}
+
+.contenedor-input textarea {
+    width: 80%;
+}
+
+.contenedor-iconos {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://media.istockphoto.com/vectors/ibiza-neon-sign-bright-light-signboard-vector-banner-vector-id1161901708?k=6&m=1161901708&s=612x612&w=0&h=bYHmOrU4qJFR2Mjvmesm96vCh3KvqkddkzhLyYhtIMY=);
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+}
+
+.iconos i {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.icon-twitter:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #c13584;
+    cursor: pointer;
+}
+
+.icon-facebook:hover {
+    cursor: pointer;
+    color: #3b5998;
+}
+
